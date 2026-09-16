@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 // Use exact frontend origins; Render can set Cors__AllowedOrigins__0, etc.
 var frontendOrigins = builder.Configuration
     .GetSection("Cors:AllowedOrigins")
@@ -75,6 +77,8 @@ builder.Services.AddAuthorization();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Restore the original HTTPS scheme before redirects and authentication run.
 app.UseForwardedHeaders();

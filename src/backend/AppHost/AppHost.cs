@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Hosting;
 using Scalar.Aspire;
 
 var builder = DistributedApplication.CreateBuilder(args);
@@ -28,6 +29,16 @@ if (builder.ExecutionContext.IsRunMode)
 #pragma warning restore ASPIREJAVASCRIPT001
 }
 
-var scalar = builder.AddScalarApiReference();
+builder.AddScalarApiReference(options =>
+    {
+        options.PreferHttpsEndpoint();
+
+        if (builder.Environment.IsDevelopment())
+        {
+            options.AllowSelfSignedCertificates();
+        }
+    })
+    .WithApiReference(api)
+    .WaitFor(api);
 
 builder.Build().Run();

@@ -2,8 +2,19 @@
 
 ## Local development
 
+Open `src/backend/BEVeldVrij.slnx` in Rider. The solution contains `Api`,
+`AppHost`, and `ServiceDefaults`. An attached repository folder is a separate view of the same
+files, not a second copy of the projects.
+
 Start the AppHost with Aspire. It supplies `ConnectionStrings:db` to the API,
 which applies existing EF migrations automatically in Development.
+
+The API references `ServiceDefaults` and calls `AddServiceDefaults()` and
+`MapDefaultEndpoints()`. This enables OpenTelemetry logs, metrics, and traces,
+service discovery, and resilience for clients created through `IHttpClientFactory`.
+Aspire supplies the OTLP endpoint for telemetry in its dashboard. The `/health`
+and `/alive` endpoints are available only in Development; the AppHost checks
+`/health` over HTTPS so the frontend waits until the API is ready.
 
 The AppHost also runs the Next.js frontend's `dev` script at
 `http://localhost:3000`, with its status and console logs in the Aspire dashboard.
@@ -13,11 +24,22 @@ use `process.env.NEXT_PUBLIC_API_URL` when adding browser-side API calls.
 This frontend resource runs only during local development, so production hosting
 on Vercel or Cloudflare remains independent.
 
-From `src/backend/Api.AppHost`, start everything with:
+From `src/backend` or `src/backend/AppHost`, start everything with:
 
 ```powershell
 aspire start
 ```
+
+Aspire generates database volume names from the AppHost name and path. To reuse
+an existing local database after renaming or moving the AppHost, set its Docker
+volume name locally (the AppHost's `UserSecretsId` is unchanged):
+
+```powershell
+dotnet user-secrets set "Postgres:VolumeName" "<existing-volume-name>" --project AppHost/AppHost.csproj
+```
+
+Run this from `src/backend`. Without this override, Aspire generates a volume
+name for the current AppHost location.
 
 The Development CORS policy allows `http://localhost:3000` and
 `https://localhost:3000`. Use the API's HTTPS endpoint for cookie authentication.
