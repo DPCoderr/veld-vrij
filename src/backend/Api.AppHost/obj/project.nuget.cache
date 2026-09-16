@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jq3rB3/0uRQ=",
+  "dgSpecHash": "L81V2Ra1lIc=",
   "success": true,
   "projectFilePath": "C:\\Users\\dppc2\\Documents\\Projects\\veld-vrij\\src\\backend\\Api.AppHost\\Api.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dppc2\\.nuget\\packages\\aspire.hosting\\13.5.4\\aspire.hosting.13.5.4.nupkg.sha512",
     "C:\\Users\\dppc2\\.nuget\\packages\\aspire.hosting.apphost\\13.5.4\\aspire.hosting.apphost.13.5.4.nupkg.sha512",
+    "C:\\Users\\dppc2\\.nuget\\packages\\aspire.hosting.javascript\\13.5.4\\aspire.hosting.javascript.13.5.4.nupkg.sha512",
     "C:\\Users\\dppc2\\.nuget\\packages\\aspire.hosting.postgresql\\13.5.4\\aspire.hosting.postgresql.13.5.4.nupkg.sha512",
     "C:\\Users\\dppc2\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
     "C:\\Users\\dppc2\\.nuget\\packages\\aspnetcore.healthchecks.uris\\9.0.0\\aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",

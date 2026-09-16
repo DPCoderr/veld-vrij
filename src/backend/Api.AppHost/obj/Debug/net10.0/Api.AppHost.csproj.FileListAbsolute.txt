@@ -110,3 +110,5 @@ C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\bin\Debug\ne
 C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\bin\Debug\net10.0\Npgsql.dll
 C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\obj\Debug\net10.0\Aspire\references\Api.ProjectMetadata.g.cs
 C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\bin\Debug\net10.0\Scalar.Aspire.dll
+C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\bin\Debug\net10.0\Aspire.Hosting.JavaScript.dll
+C:\Users\dppc2\Documents\Projects\veld-vrij\src\backend\Api.AppHost\obj\Debug\net10.0\Api.AppHost.sourcelink.json

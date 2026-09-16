@@ -49,6 +49,10 @@
               "version": "[13.5.4, )",
               "autoReferenced": true
             },
+            "Aspire.Hosting.JavaScript": {
+              "target": "Package",
+              "version": "[13.5.4, )"
+            },
             "Aspire.Hosting.PostgreSQL": {
               "target": "Package",
               "version": "[13.5.4, )"

@@ -5,6 +5,20 @@
 Start the AppHost with Aspire. It supplies `ConnectionStrings:db` to the API,
 which applies existing EF migrations automatically in Development.
 
+The AppHost also runs the Next.js frontend's `dev` script at
+`http://localhost:3000`, with its status and console logs in the Aspire dashboard.
+Stop any separately running frontend dev server before starting Aspire.
+The frontend receives `NEXT_PUBLIC_API_URL` pointing to the API's HTTPS endpoint;
+use `process.env.NEXT_PUBLIC_API_URL` when adding browser-side API calls.
+This frontend resource runs only during local development, so production hosting
+on Vercel or Cloudflare remains independent.
+
+From `src/backend/Api.AppHost`, start everything with:
+
+```powershell
+aspire start
+```
+
 The Development CORS policy allows `http://localhost:3000` and
 `https://localhost:3000`. Use the API's HTTPS endpoint for cookie authentication.
 Frontend requests must include `credentials: "include"` to send and receive cookies.
