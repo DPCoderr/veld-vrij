@@ -1,0 +1,386 @@
+{
+  "project": "VeldVrij",
+  "date": "2026-09-17",
+  "method": "Built-in image_gen tool; exact backend model not exposed",
+  "status": "38 selected images generated; all 3 missing images added and all 5 recorded refinements completed after user requested resume",
+  "files": [
+    {
+      "id": "01-homepage-desktop",
+      "title": "Homepage",
+      "format": "Desktop",
+      "source": "C:/Users/dppc2/.codex/generated_images/01a0ac3a-b05d-7353-a492-8734b1157742/exec-70ea84de-690f-4d0e-9ed4-7ddbd8284af2.png",
+      "filename": "01-homepage-desktop.png",
+      "prompt": "homepage-desktop-prompt.txt",
+      "correctionPrompt": "01-homepage-desktop-edit-prompt.txt"
+    },
+    {
+      "id": "01-homepage-mobile",
+      "title": "Homepage",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-5d872694-5d66-4766-bdd6-eb0f72f24280.png",
+      "filename": "01-homepage-mobile.png",
+      "prompt": "01-homepage-mobile-prompt.txt"
+    },
+    {
+      "id": "02-sportplekken-desktop",
+      "title": "Sportplekken",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-53b1ebb5-ef33-4391-9c14-37c6de7577cd.png",
+      "filename": "02-sportplekken-desktop-v2.png",
+      "prompt": "02-sportplekken-desktop-prompt.txt",
+      "correctionPrompt": "02-sportplekken-desktop-correction-prompt.txt"
+    },
+    {
+      "id": "02-sportplekken-mobile",
+      "title": "Sportplekken",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-9cf03aa0-6196-4adc-98eb-0eeff56286d5.png",
+      "filename": "02-sportplekken-mobile.png",
+      "prompt": "02-sportplekken-mobile-prompt.txt"
+    },
+    {
+      "id": "03-velddetail-desktop",
+      "title": "Velddetail",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-2e9ca469-ce82-48bd-bc3a-95274c9ca2b7.png",
+      "filename": "03-velddetail-desktop-v2.png",
+      "prompt": "03-velddetail-desktop-prompt.txt",
+      "correctionPrompt": "03-velddetail-desktop-correction-prompt.txt"
+    },
+    {
+      "id": "03-velddetail-mobile",
+      "title": "Velddetail",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-4417254c-8056-4f30-95b3-f9963780d391.png",
+      "filename": "03-velddetail-mobile-v2.png",
+      "correctionPrompt": "03-velddetail-mobile-correction-prompt.txt",
+      "prompt": "03-velddetail-mobile-prompt.txt"
+    },
+    {
+      "id": "04-inloggen-desktop",
+      "title": "Inloggen",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-00c88596-35dd-4fa8-9683-f2f5c6956290.png",
+      "filename": "04-inloggen-desktop-v2.png",
+      "prompt": "04-inloggen-desktop-prompt.txt",
+      "correctionPrompt": "04-inloggen-desktop-correction-prompt.txt"
+    },
+    {
+      "id": "04-inloggen-mobile",
+      "title": "Inloggen",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-0585b4a7-4192-4642-8ae3-8068967a0ea8.png",
+      "filename": "04-inloggen-mobile.png",
+      "prompt": "04-inloggen-mobile-prompt.txt"
+    },
+    {
+      "id": "05-registreren-desktop",
+      "title": "Registreren",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-0a18cf31-de84-45dd-bbad-562080fb3eca.png",
+      "filename": "05-registreren-desktop.png",
+      "prompt": "05-registreren-desktop-prompt.txt"
+    },
+    {
+      "id": "05-registreren-mobile",
+      "title": "Registreren",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-3ca50f0e-18b0-4889-9b81-11979083eed1.png",
+      "filename": "05-registreren-mobile-v2.png",
+      "correctionPrompt": "05-registreren-mobile-correction-prompt.txt",
+      "prompt": "05-registreren-mobile-prompt.txt"
+    },
+    {
+      "id": "06-afronden-desktop",
+      "title": "Reservering afronden",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-a9f07ae1-9dff-4edc-8400-e9d19779fa67.png",
+      "filename": "06-afronden-desktop.png",
+      "prompt": "06-afronden-desktop-prompt.txt"
+    },
+    {
+      "id": "06-afronden-mobile",
+      "title": "Reservering afronden",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-9e4449af-da09-4fef-9466-c9d5097cb4fe.png",
+      "filename": "06-afronden-mobile-v2.png",
+      "correctionPrompt": "06-afronden-mobile-correction-prompt.txt",
+      "prompt": "06-afronden-mobile-prompt.txt"
+    },
+    {
+      "id": "07-mijn-reserveringen-desktop",
+      "title": "Mijn reserveringen",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-6cf748f5-4cdc-40e8-b8f6-d1b1c6bb51bc.png",
+      "filename": "07-mijn-reserveringen-desktop.png",
+      "promptAddition": "",
+      "prompt": "07-mijn-reserveringen-desktop-prompt.txt"
+    },
+    {
+      "id": "07-mijn-reserveringen-mobile",
+      "title": "Mijn reserveringen",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-50a0f647-d1dd-4137-952a-7aa107db84c6.png",
+      "filename": "07-mijn-reserveringen-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: the reference is desktop styling only. Reflow to a TRUE 390px viewport with readable 16px body. Header contains only VeldVrij Demo and Menu; do not copy desktop links. Do NOT fit all content: crop naturally at the bottom. Shorten the title into 2 lines if needed. Prioritize the key action and only 1–2 cards above fold.",
+      "prompt": "07-mijn-reserveringen-mobile-prompt.txt"
+    },
+    {
+      "id": "08-reserveringsdetail-desktop",
+      "title": "Reserveringsdetail en toegangscode",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-766976a9-a09d-4c1e-b520-03369983e332.png",
+      "filename": "08-reserveringsdetail-desktop-v2.png",
+      "promptAddition": "",
+      "correctionPrompt": "08-reserveringsdetail-desktop-correction-prompt.txt",
+      "prompt": "08-reserveringsdetail-desktop-prompt.txt"
+    },
+    {
+      "id": "08-reserveringsdetail-mobile",
+      "title": "Reserveringsdetail en toegangscode",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-c9372e2b-028c-4a5f-a4c0-1b3ca9c3edba.png",
+      "filename": "08-reserveringsdetail-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: the reference is desktop styling only. Reflow to a TRUE 390px viewport with readable 16px body. Header contains only VeldVrij Demo and Menu; do not copy desktop links. Do NOT fit all content: crop naturally at the bottom. Shorten the title into 2 lines if needed. Prioritize the key action and only 1–2 cards above fold.",
+      "prompt": "08-reserveringsdetail-mobile-prompt.txt"
+    },
+    {
+      "id": "09-zo-werkt-het-desktop",
+      "title": "Zo werkt het",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-946bb30a-d020-4485-9dda-b25e093a6dbf.png",
+      "filename": "09-zo-werkt-het-desktop.png",
+      "promptAddition": "",
+      "prompt": "09-zo-werkt-het-desktop-prompt.txt"
+    },
+    {
+      "id": "09-zo-werkt-het-mobile",
+      "title": "Zo werkt het",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-de75422b-61c6-472f-98ec-eaa3b5274b70.png",
+      "filename": "09-zo-werkt-het-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: the reference is desktop styling only. Reflow to a TRUE 390px viewport with readable 16px body. Header contains only VeldVrij Demo and Menu; do not copy desktop links. Do NOT fit all content: crop naturally at the bottom. Shorten the title into 2 lines if needed. Prioritize the key action and only 1–2 cards above fold.",
+      "prompt": "09-zo-werkt-het-mobile-prompt.txt"
+    },
+    {
+      "id": "10-beheer-overzicht-desktop",
+      "title": "Beheeroverzicht",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-7d6f0d0a-b778-4e43-90c8-0bcb2d8a4a64.png",
+      "filename": "10-beheer-overzicht-desktop.png",
+      "promptAddition": "",
+      "prompt": "10-beheer-overzicht-desktop-prompt.txt"
+    },
+    {
+      "id": "10-beheer-overzicht-mobile",
+      "title": "Beheeroverzicht",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-e6c0608c-dd19-4661-8f08-1dc091bf0c00.png",
+      "filename": "10-beheer-overzicht-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation links. Reflow into one column; show only what naturally fits, crop below fold, never shrink all page content. Main controls min44px design height.",
+      "prompt": "10-beheer-overzicht-mobile-prompt.txt"
+    },
+    {
+      "id": "11-veldbeheer-desktop",
+      "title": "Veld bewerken",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-704cdbfb-6b96-41bf-820f-9b1ee78454f2.png",
+      "filename": "11-veldbeheer-desktop.png",
+      "promptAddition": "",
+      "prompt": "11-veldbeheer-desktop-prompt.txt"
+    },
+    {
+      "id": "11-veldbeheer-mobile",
+      "title": "Veld bewerken",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-aef30b55-9682-4375-871b-265afb460a6c.png",
+      "filename": "11-veldbeheer-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation links. Reflow into one column; show only what naturally fits, crop below fold, never shrink all page content. Main controls min44px design height.",
+      "prompt": "11-veldbeheer-mobile-prompt.txt"
+    },
+    {
+      "id": "12-planning-desktop",
+      "title": "Dagplanning",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-d4d943e7-debf-47ca-9a89-b0e08327d10f.png",
+      "filename": "12-planning-desktop.png",
+      "promptAddition": "",
+      "prompt": "12-planning-desktop-prompt.txt"
+    },
+    {
+      "id": "12-planning-mobile",
+      "title": "Dagplanning",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-b6ab6a8f-1a46-4298-b77f-fdd923ceef80.png",
+      "filename": "12-planning-mobile-v2.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation links. Reflow into one column; show only what naturally fits, crop below fold, never shrink all page content. Main controls min44px design height.",
+      "correctionPrompt": "12-planning-mobile-correction-prompt.txt",
+      "prompt": "12-planning-mobile-prompt.txt"
+    },
+    {
+      "id": "13-poortdemo-desktop",
+      "title": "Poortsimulatie — toegestaan",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-4867a300-53be-45f1-b3f9-17f40e2cc312.png",
+      "filename": "13-poortdemo-desktop.png",
+      "promptAddition": "",
+      "prompt": "13-poortdemo-desktop-prompt.txt"
+    },
+    {
+      "id": "13-poortdemo-mobile",
+      "title": "Poortsimulatie — toegestaan",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-de0f29a0-8e94-410c-9207-3f31406c2f0d.png",
+      "filename": "13-poortdemo-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation links. Reflow into one column; show only what naturally fits, crop below fold, never shrink all page content. Main controls min44px design height.",
+      "prompt": "13-poortdemo-mobile-prompt.txt"
+    },
+    {
+      "id": "14-velden-desktop",
+      "title": "Velden beheren",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-2668f3fd-b6dc-4407-bba7-e8ce6cf97945.png",
+      "filename": "14-velden-desktop.png",
+      "promptAddition": "",
+      "prompt": "14-velden-desktop-prompt.txt"
+    },
+    {
+      "id": "14-velden-mobile",
+      "title": "Velden beheren",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-cb3eee0d-5511-45af-8b5e-a006dfb67e77.png",
+      "filename": "14-velden-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation. Replace the table entirely with stacked cards; never fit a wide table into mobile. Each card has name, labelled facts and action. Show only 1–2 fully readable cards then natural crop.",
+      "prompt": "14-velden-mobile-prompt.txt"
+    },
+    {
+      "id": "15-locaties-desktop",
+      "title": "Locaties beheren",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-ad216fe3-d499-4705-831b-de7fca1983c4.png",
+      "filename": "15-locaties-desktop.png",
+      "promptAddition": "",
+      "prompt": "15-locaties-desktop-prompt.txt"
+    },
+    {
+      "id": "15-locaties-mobile",
+      "title": "Locaties beheren",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-2e5f37b1-c04f-41de-89b1-095a31f21565.png",
+      "filename": "15-locaties-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation. Replace the table entirely with stacked cards; never fit a wide table into mobile. Each card has name, labelled facts and action. Show only 1–2 fully readable cards then natural crop.",
+      "prompt": "15-locaties-mobile-prompt.txt"
+    },
+    {
+      "id": "16-beheer-reserveringen-desktop",
+      "title": "Reserveringen beheren",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-ee982045-e790-4f0c-aa02-91b39b8b5b71.png",
+      "filename": "16-beheer-reserveringen-desktop.png",
+      "promptAddition": "",
+      "prompt": "16-beheer-reserveringen-desktop-prompt.txt"
+    },
+    {
+      "id": "16-beheer-reserveringen-mobile",
+      "title": "Reserveringen beheren",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-20a3e625-6c7b-4f58-bcc4-8defc871e9a3.png",
+      "filename": "16-beheer-reserveringen-mobile.png",
+      "promptAddition": "\nMOBILE OVERRIDE: reference is styling only. TRUE 390px viewport, readable 16px body, header only VeldVrij Demo and Menu. NO desktop sidebar or desktop navigation. Replace the table entirely with stacked cards; never fit a wide table into mobile. Each card has name, labelled facts and action. Show only 1–2 fully readable cards then natural crop.",
+      "prompt": "16-beheer-reserveringen-mobile-prompt.txt"
+    },
+    {
+      "id": "17-betaling-controleren-desktop",
+      "title": "Betaling wordt gecontroleerd",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-0eda3913-9760-4ece-b3f6-c69e0450240f.png",
+      "filename": "17-betaling-controleren-desktop.png",
+      "variant": true,
+      "prompt": "17-betaling-controleren-desktop-prompt.txt"
+    },
+    {
+      "id": "18-annuleren-desktop",
+      "title": "Annuleren — terugbetaling",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-b29b24f6-dd5c-484f-b01f-86159eac5cd4.png",
+      "filename": "18-annuleren-desktop.png",
+      "variant": true,
+      "prompt": "18-annuleren-desktop-prompt.txt"
+    },
+    {
+      "id": "19-slot-sluiten-desktop",
+      "title": "Geboekt tijdslot sluiten",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-63920652-afb3-48d8-b895-a0d04d09a5b7.png",
+      "filename": "19-slot-sluiten-desktop.png",
+      "variant": true,
+      "prompt": "19-slot-sluiten-desktop-prompt.txt"
+    },
+    {
+      "id": "20-poort-geweigerd-tablet",
+      "title": "Poortsimulatie — geweigerd",
+      "format": "tablet",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-553f4612-5049-4a58-93f1-e5d6eba0dde1.png",
+      "filename": "20-poort-geweigerd-tablet.png",
+      "variant": true,
+      "prompt": "20-poort-geweigerd-tablet-prompt.txt"
+    },
+    {
+      "id": "21-gratis-bevestigd-desktop",
+      "title": "Gratis boeking bevestigd",
+      "format": "desktop",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-eb48ca87-ad0f-4b28-919c-624392ba7662.png",
+      "filename": "21-gratis-bevestigd-desktop-v2.png",
+      "variant": true,
+      "prompt": "21-gratis-bevestigd-desktop-prompt.txt",
+      "correctionPrompt": "21-gratis-bevestigd-desktop-correction-prompt.txt"
+    },
+    {
+      "id": "21-gratis-bevestigd-mobile",
+      "title": "Gratis boeking bevestigd",
+      "format": "mobile",
+      "source": "C:\\Users\\dppc2\\.codex\\generated_images\\01a0ac3a-b05d-7353-a492-8734b1157742\\exec-c320fad4-90fc-492d-be81-46e9f799a947.png",
+      "filename": "21-gratis-bevestigd-mobile.png",
+      "variant": true,
+      "prompt": "21-gratis-bevestigd-mobile-prompt.txt"
+    }
+  ],
+  "missing": [],
+  "reviewNotes": [],
+  "sources": [
+    "C:/Users/dppc2/.codex/attachments/db7a6774-488f-4023-a94f-eef6f62454f3/pasted-text.txt",
+    "C:/Users/dppc2/.codex/attachments/ae181f0c-6580-49c3-9043-0f85d5dcfee3/pasted-text.txt"
+  ],
+  "completedRefinements": [
+    {
+      "id": "03-velddetail-mobile",
+      "originalNote": "Maak totaalprijs en ‘Verder’ een echte vaste onderbalk. In dit concept staan ze nog in de boekingskaart.",
+      "status": "completed",
+      "prompt": "03-velddetail-mobile-correction-prompt.txt"
+    },
+    {
+      "id": "05-registreren-mobile",
+      "originalNote": "Verwijder de grote sfeerfoto en zet het formulier direct onder de compacte header, in lijn met de mobiele login.",
+      "status": "completed",
+      "prompt": "05-registreren-mobile-correction-prompt.txt"
+    },
+    {
+      "id": "06-afronden-mobile",
+      "originalNote": "Vervang de desktopnavigatie door ‘Menu’ en vergroot de tekst; beperk de foto en laat secundaire inhoud onder de vouw doorlopen.",
+      "status": "completed",
+      "prompt": "06-afronden-mobile-correction-prompt.txt"
+    },
+    {
+      "id": "08-reserveringsdetail-desktop",
+      "originalNote": "Wijzig de ongevraagde tekst over ‘de ingang van het sportpark’ naar toegang tot het gereserveerde veld; in de MVP wordt toegang gesimuleerd.",
+      "status": "completed",
+      "prompt": "08-reserveringsdetail-desktop-correction-prompt.txt"
+    },
+    {
+      "id": "12-planning-mobile",
+      "originalNote": "Vervang de verkleinde tabel door tijdslotkaarten met tijd, prijs, status en actie op twee regels.",
+      "status": "completed",
+      "prompt": "12-planning-mobile-correction-prompt.txt"
+    }
+  ]
+}

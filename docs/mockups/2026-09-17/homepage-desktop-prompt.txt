@@ -1,0 +1,24 @@
+Use case: ui-mockup
+Asset type: high-fidelity desktop homepage for the Dutch web application VeldVrij.
+
+Create one polished, realistic, implementable web application UI mockup for “VeldVrij”, a Dutch service for reserving whole outdoor sports fields for a group. The style is calm, accessible and trustworthy, suitable for a municipal service. Use light mode only, predominantly white surfaces, a very pale green-gray page background, forest-green primary buttons, dark readable text and subtle borders. Use realistic shadcn/ui-style components. Use Inter typography, restrained corner rounding and generous spacing. Photography should show well-maintained outdoor sports grounds, green grass and authentic court markings. Keep forms and important text on solid white surfaces. All interface copy is Dutch. No invented testimonials, ratings, partner logos, QR codes, dark panels, glassmorphism or decorative analytics. Render a straight-on browser viewport without a laptop or phone frame.
+
+Composition: one desktop homepage, one normal default state, viewport 1440 by 1024 pixels or the closest supported aspect ratio. Content maximum width 1200 pixels, centered. Render edge-to-edge website content without browser toolbar, presentation board, caption, device, or external padding. Natural first viewport of a scrollable page; do not compress the whole long page to fit. Crisp, readable Dutch text and professionally balanced spacing.
+
+Design tokens: page #F7F9F6; cards and forms #FFFFFF; primary #166534; text #17251B; secondary text #526157; borders #DDE5DC. Card corners 12px, inputs/buttons 8px, minimum control height 44px, body 16px, supporting text 14px. Homepage heading 48px, bold Inter. Subtle shadows only.
+
+Header: 72px tall, white. Left: a simple typographic forest-green wordmark exactly “VeldVrij”, with a small unobtrusive “Demo” label. Right: navigation “Sportplekken”, “Zo werkt het”, “Inloggen”, and a solid green button “Vind een sportplek”. Align all content to the same 1200px grid.
+
+Hero: broad photorealistic maintained Dutch outdoor sports field, green turf, believable white field markings, goal, quiet fence and trees in natural daylight. A very light cream-white gradient on the left provides calm highly readable dark text; on the right let the field photograph remain clear and natural. Hero below the header with generous height around 390–420px. Headline left, exact two-line text:
+“Jouw sportplek.
+Jouw moment.”
+Subtitle exactly “Reserveer een veld in de buurt en ga samen naar buiten.”
+Avoid additional hero slogans or claims.
+
+Search: solid white horizontal panel near the bottom of the hero, with a subtle border and shadow, generous padding, and four aligned columns. Three clearly labeled controls: “Sport” with value “Alle sporten”; “Locatie” with value “Alle locaties”; “Datum” with value “19 september 2026” and a restrained calendar line icon. Fourth column primary forest-green button “Bekijk sportplekken”, with a small search icon. Use familiar select chevrons. The search panel is clearly separate from the photograph.
+
+Below hero: a generous plain light section with three equal horizontal steps, using restrained simple green line icons or small numbered circles. Exact headings “Kies een veld”, “Reserveer een tijd”, “Ga sporten”. Supporting lines respectively “Vind een sportplek die bij je past.”, “Boek het hele veld voor jouw groep.”, “Gebruik je toegangscode tijdens je boeking.” Do not put each step in a heavy card.
+
+Next section starts within the viewport: heading “Ontdek de sportplekken”, small supporting label “Voorbeeldlocaties”. Three equal white field cards with distinct realistic photos: a green football field, a tennis court with a correct net and court markings, and a green multi-sport court with basketball hoop and appropriate markings. Names respectively “Voetbalveld Noord”, “Tennisbaan Parkzicht”, “Multiveld Buiten”; locations “Sportpark Noord”, “Sportpark Parkzicht”, “Sportpark Buiten”; sport badges “Voetbal”, “Tennis”, and “Voetbal” plus “Basketbal”. If the card text is visible in the natural crop, price labels are respectively “Vanaf €12,00 per uur”, “Vanaf €8,00 per uur”, “Gratis tijdsloten”; action is “Bekijk tijden”. It is fine for card bottoms to extend below the viewport; do not shrink UI. All these locations are fictional demo examples.
+
+Constraints: one page only, no mobile inset or multi-screen collage. No map, GPS distances, stars, reviews, booking counts, avatars, chat, QR codes, payment fields, fake institutional endorsements, or dark mode. Consistent visual rhythm, meaningful green accents, photographic realism, no watermark.

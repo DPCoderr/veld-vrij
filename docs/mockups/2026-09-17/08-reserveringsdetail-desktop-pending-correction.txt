@@ -1,0 +1,1 @@
+Use case: text-localization. Edit ONLY the helper sentence under Toegang in the lower-right Goed om te weten section. Replace it with exactly: 'Je code geeft tijdens je boeking toegang tot dit veld.' Preserve all other content, access code4837 1902, times14:00–15:00, price€12,00, photograph, header, layout and colours.
