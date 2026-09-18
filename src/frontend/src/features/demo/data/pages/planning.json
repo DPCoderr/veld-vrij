@@ -1,0 +1,11 @@
+{
+	"id": "planning",
+	"title": "Planning",
+	"description": "Beheer de tijdsloten van je velden.",
+	"route": "/beheer/planning",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["admin", "close-slot"]
+}

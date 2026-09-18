@@ -1,0 +1,9 @@
+{
+	"id": "payment-checking",
+	"title": "Betaling wordt gecontroleerd",
+	"role": "member",
+	"now": "2026-09-19T11:00",
+	"bookingId": "res-buiten-14",
+	"status": "checking",
+	"path": "/reserveringen/res-buiten-14"
+}

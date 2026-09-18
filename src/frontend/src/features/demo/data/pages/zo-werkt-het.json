@@ -1,0 +1,11 @@
+{
+	"id": "zo-werkt-het",
+	"title": "Zo werkt VeldVrij",
+	"description": "In drie stappen naar buiten.",
+	"route": "/zo-werkt-het",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["default", "loading", "empty", "error"]
+}

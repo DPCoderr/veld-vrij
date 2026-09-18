@@ -1,0 +1,7 @@
+{
+	"id": "close-slot",
+	"title": "Geboekt tijdslot sluiten",
+	"role": "admin",
+	"now": "2026-09-19T11:00",
+	"path": "/beheer/planning"
+}

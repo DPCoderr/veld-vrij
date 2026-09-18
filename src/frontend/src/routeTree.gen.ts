@@ -10,33 +10,260 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BeheerRouteImport } from './routes/beheer'
+import { Route as DemoRouteImport } from './routes/demo'
+import { Route as InloggenRouteImport } from './routes/inloggen'
+import { Route as MijnReserveringenRouteImport } from './routes/mijn-reserveringen'
+import { Route as RegistrerenRouteImport } from './routes/registreren'
+import { Route as SportplekkenRouteImport } from './routes/sportplekken'
+import { Route as ZoWerktHetRouteImport } from './routes/zo-werkt-het'
+import { Route as BeheerLocatiesRouteImport } from './routes/beheer_.locaties'
+import { Route as BeheerPlanningRouteImport } from './routes/beheer_.planning'
+import { Route as BeheerPoortdemoRouteImport } from './routes/beheer_.poortdemo'
+import { Route as BeheerReserveringenRouteImport } from './routes/beheer_.reserveringen'
+import { Route as BeheerVeldenRouteImport } from './routes/beheer_.velden'
+import { Route as ReserverenSlotIdRouteImport } from './routes/reserveren.$slotId'
+import { Route as ReserveringenReserveringIdRouteImport } from './routes/reserveringen.$reserveringId'
+import { Route as SportplekkenVeldIdRouteImport } from './routes/sportplekken_.$veldId'
+import { Route as BeheerVeldenVeldIdRouteImport } from './routes/beheer_.velden_.$veldId'
+import { Route as ReserveringenReserveringIdBevestigingRouteImport } from './routes/reserveringen.$reserveringId_.bevestiging'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BeheerRoute = BeheerRouteImport.update({
+  id: '/beheer',
+  path: '/beheer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DemoRoute = DemoRouteImport.update({
+  id: '/demo',
+  path: '/demo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InloggenRoute = InloggenRouteImport.update({
+  id: '/inloggen',
+  path: '/inloggen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MijnReserveringenRoute = MijnReserveringenRouteImport.update({
+  id: '/mijn-reserveringen',
+  path: '/mijn-reserveringen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RegistrerenRoute = RegistrerenRouteImport.update({
+  id: '/registreren',
+  path: '/registreren',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SportplekkenRoute = SportplekkenRouteImport.update({
+  id: '/sportplekken',
+  path: '/sportplekken',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ZoWerktHetRoute = ZoWerktHetRouteImport.update({
+  id: '/zo-werkt-het',
+  path: '/zo-werkt-het',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerLocatiesRoute = BeheerLocatiesRouteImport.update({
+  id: '/beheer_/locaties',
+  path: '/beheer/locaties',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerPlanningRoute = BeheerPlanningRouteImport.update({
+  id: '/beheer_/planning',
+  path: '/beheer/planning',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerPoortdemoRoute = BeheerPoortdemoRouteImport.update({
+  id: '/beheer_/poortdemo',
+  path: '/beheer/poortdemo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerReserveringenRoute = BeheerReserveringenRouteImport.update({
+  id: '/beheer_/reserveringen',
+  path: '/beheer/reserveringen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerVeldenRoute = BeheerVeldenRouteImport.update({
+  id: '/beheer_/velden',
+  path: '/beheer/velden',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReserverenSlotIdRoute = ReserverenSlotIdRouteImport.update({
+  id: '/reserveren/$slotId',
+  path: '/reserveren/$slotId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReserveringenReserveringIdRoute =
+  ReserveringenReserveringIdRouteImport.update({
+    id: '/reserveringen/$reserveringId',
+    path: '/reserveringen/$reserveringId',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const SportplekkenVeldIdRoute = SportplekkenVeldIdRouteImport.update({
+  id: '/sportplekken_/$veldId',
+  path: '/sportplekken/$veldId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeheerVeldenVeldIdRoute = BeheerVeldenVeldIdRouteImport.update({
+  id: '/beheer_/velden_/$veldId',
+  path: '/beheer/velden/$veldId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReserveringenReserveringIdBevestigingRoute =
+  ReserveringenReserveringIdBevestigingRouteImport.update({
+    id: '/reserveringen/$reserveringId_/bevestiging',
+    path: '/reserveringen/$reserveringId/bevestiging',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/beheer': typeof BeheerRoute
+  '/demo': typeof DemoRoute
+  '/inloggen': typeof InloggenRoute
+  '/mijn-reserveringen': typeof MijnReserveringenRoute
+  '/registreren': typeof RegistrerenRoute
+  '/sportplekken': typeof SportplekkenRoute
+  '/zo-werkt-het': typeof ZoWerktHetRoute
+  '/beheer/locaties': typeof BeheerLocatiesRoute
+  '/beheer/planning': typeof BeheerPlanningRoute
+  '/beheer/poortdemo': typeof BeheerPoortdemoRoute
+  '/beheer/reserveringen': typeof BeheerReserveringenRoute
+  '/beheer/velden': typeof BeheerVeldenRoute
+  '/reserveren/$slotId': typeof ReserverenSlotIdRoute
+  '/reserveringen/$reserveringId': typeof ReserveringenReserveringIdRoute
+  '/sportplekken/$veldId': typeof SportplekkenVeldIdRoute
+  '/beheer/velden/$veldId': typeof BeheerVeldenVeldIdRoute
+  '/reserveringen/$reserveringId/bevestiging': typeof ReserveringenReserveringIdBevestigingRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/beheer': typeof BeheerRoute
+  '/demo': typeof DemoRoute
+  '/inloggen': typeof InloggenRoute
+  '/mijn-reserveringen': typeof MijnReserveringenRoute
+  '/registreren': typeof RegistrerenRoute
+  '/sportplekken': typeof SportplekkenRoute
+  '/zo-werkt-het': typeof ZoWerktHetRoute
+  '/beheer/locaties': typeof BeheerLocatiesRoute
+  '/beheer/planning': typeof BeheerPlanningRoute
+  '/beheer/poortdemo': typeof BeheerPoortdemoRoute
+  '/beheer/reserveringen': typeof BeheerReserveringenRoute
+  '/beheer/velden': typeof BeheerVeldenRoute
+  '/reserveren/$slotId': typeof ReserverenSlotIdRoute
+  '/reserveringen/$reserveringId': typeof ReserveringenReserveringIdRoute
+  '/sportplekken/$veldId': typeof SportplekkenVeldIdRoute
+  '/beheer/velden/$veldId': typeof BeheerVeldenVeldIdRoute
+  '/reserveringen/$reserveringId/bevestiging': typeof ReserveringenReserveringIdBevestigingRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/beheer': typeof BeheerRoute
+  '/demo': typeof DemoRoute
+  '/inloggen': typeof InloggenRoute
+  '/mijn-reserveringen': typeof MijnReserveringenRoute
+  '/registreren': typeof RegistrerenRoute
+  '/sportplekken': typeof SportplekkenRoute
+  '/zo-werkt-het': typeof ZoWerktHetRoute
+  '/beheer_/locaties': typeof BeheerLocatiesRoute
+  '/beheer_/planning': typeof BeheerPlanningRoute
+  '/beheer_/poortdemo': typeof BeheerPoortdemoRoute
+  '/beheer_/reserveringen': typeof BeheerReserveringenRoute
+  '/beheer_/velden': typeof BeheerVeldenRoute
+  '/reserveren/$slotId': typeof ReserverenSlotIdRoute
+  '/reserveringen/$reserveringId': typeof ReserveringenReserveringIdRoute
+  '/sportplekken_/$veldId': typeof SportplekkenVeldIdRoute
+  '/beheer_/velden_/$veldId': typeof BeheerVeldenVeldIdRoute
+  '/reserveringen/$reserveringId_/bevestiging': typeof ReserveringenReserveringIdBevestigingRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/beheer'
+    | '/demo'
+    | '/inloggen'
+    | '/mijn-reserveringen'
+    | '/registreren'
+    | '/sportplekken'
+    | '/zo-werkt-het'
+    | '/beheer/locaties'
+    | '/beheer/planning'
+    | '/beheer/poortdemo'
+    | '/beheer/reserveringen'
+    | '/beheer/velden'
+    | '/reserveren/$slotId'
+    | '/reserveringen/$reserveringId'
+    | '/sportplekken/$veldId'
+    | '/beheer/velden/$veldId'
+    | '/reserveringen/$reserveringId/bevestiging'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/beheer'
+    | '/demo'
+    | '/inloggen'
+    | '/mijn-reserveringen'
+    | '/registreren'
+    | '/sportplekken'
+    | '/zo-werkt-het'
+    | '/beheer/locaties'
+    | '/beheer/planning'
+    | '/beheer/poortdemo'
+    | '/beheer/reserveringen'
+    | '/beheer/velden'
+    | '/reserveren/$slotId'
+    | '/reserveringen/$reserveringId'
+    | '/sportplekken/$veldId'
+    | '/beheer/velden/$veldId'
+    | '/reserveringen/$reserveringId/bevestiging'
+  id:
+    | '__root__'
+    | '/'
+    | '/beheer'
+    | '/demo'
+    | '/inloggen'
+    | '/mijn-reserveringen'
+    | '/registreren'
+    | '/sportplekken'
+    | '/zo-werkt-het'
+    | '/beheer_/locaties'
+    | '/beheer_/planning'
+    | '/beheer_/poortdemo'
+    | '/beheer_/reserveringen'
+    | '/beheer_/velden'
+    | '/reserveren/$slotId'
+    | '/reserveringen/$reserveringId'
+    | '/sportplekken_/$veldId'
+    | '/beheer_/velden_/$veldId'
+    | '/reserveringen/$reserveringId_/bevestiging'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BeheerRoute: typeof BeheerRoute
+  DemoRoute: typeof DemoRoute
+  InloggenRoute: typeof InloggenRoute
+  MijnReserveringenRoute: typeof MijnReserveringenRoute
+  RegistrerenRoute: typeof RegistrerenRoute
+  SportplekkenRoute: typeof SportplekkenRoute
+  ZoWerktHetRoute: typeof ZoWerktHetRoute
+  BeheerLocatiesRoute: typeof BeheerLocatiesRoute
+  BeheerPlanningRoute: typeof BeheerPlanningRoute
+  BeheerPoortdemoRoute: typeof BeheerPoortdemoRoute
+  BeheerReserveringenRoute: typeof BeheerReserveringenRoute
+  BeheerVeldenRoute: typeof BeheerVeldenRoute
+  ReserverenSlotIdRoute: typeof ReserverenSlotIdRoute
+  ReserveringenReserveringIdRoute: typeof ReserveringenReserveringIdRoute
+  SportplekkenVeldIdRoute: typeof SportplekkenVeldIdRoute
+  BeheerVeldenVeldIdRoute: typeof BeheerVeldenVeldIdRoute
+  ReserveringenReserveringIdBevestigingRoute: typeof ReserveringenReserveringIdBevestigingRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +275,148 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/beheer': {
+      id: '/beheer'
+      path: '/beheer'
+      fullPath: '/beheer'
+      preLoaderRoute: typeof BeheerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/demo': {
+      id: '/demo'
+      path: '/demo'
+      fullPath: '/demo'
+      preLoaderRoute: typeof DemoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/inloggen': {
+      id: '/inloggen'
+      path: '/inloggen'
+      fullPath: '/inloggen'
+      preLoaderRoute: typeof InloggenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mijn-reserveringen': {
+      id: '/mijn-reserveringen'
+      path: '/mijn-reserveringen'
+      fullPath: '/mijn-reserveringen'
+      preLoaderRoute: typeof MijnReserveringenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/registreren': {
+      id: '/registreren'
+      path: '/registreren'
+      fullPath: '/registreren'
+      preLoaderRoute: typeof RegistrerenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sportplekken': {
+      id: '/sportplekken'
+      path: '/sportplekken'
+      fullPath: '/sportplekken'
+      preLoaderRoute: typeof SportplekkenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/zo-werkt-het': {
+      id: '/zo-werkt-het'
+      path: '/zo-werkt-het'
+      fullPath: '/zo-werkt-het'
+      preLoaderRoute: typeof ZoWerktHetRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/locaties': {
+      id: '/beheer_/locaties'
+      path: '/beheer/locaties'
+      fullPath: '/beheer/locaties'
+      preLoaderRoute: typeof BeheerLocatiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/planning': {
+      id: '/beheer_/planning'
+      path: '/beheer/planning'
+      fullPath: '/beheer/planning'
+      preLoaderRoute: typeof BeheerPlanningRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/poortdemo': {
+      id: '/beheer_/poortdemo'
+      path: '/beheer/poortdemo'
+      fullPath: '/beheer/poortdemo'
+      preLoaderRoute: typeof BeheerPoortdemoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/reserveringen': {
+      id: '/beheer_/reserveringen'
+      path: '/beheer/reserveringen'
+      fullPath: '/beheer/reserveringen'
+      preLoaderRoute: typeof BeheerReserveringenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/velden': {
+      id: '/beheer_/velden'
+      path: '/beheer/velden'
+      fullPath: '/beheer/velden'
+      preLoaderRoute: typeof BeheerVeldenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reserveren/$slotId': {
+      id: '/reserveren/$slotId'
+      path: '/reserveren/$slotId'
+      fullPath: '/reserveren/$slotId'
+      preLoaderRoute: typeof ReserverenSlotIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reserveringen/$reserveringId': {
+      id: '/reserveringen/$reserveringId'
+      path: '/reserveringen/$reserveringId'
+      fullPath: '/reserveringen/$reserveringId'
+      preLoaderRoute: typeof ReserveringenReserveringIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sportplekken_/$veldId': {
+      id: '/sportplekken_/$veldId'
+      path: '/sportplekken/$veldId'
+      fullPath: '/sportplekken/$veldId'
+      preLoaderRoute: typeof SportplekkenVeldIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/beheer_/velden_/$veldId': {
+      id: '/beheer_/velden_/$veldId'
+      path: '/beheer/velden/$veldId'
+      fullPath: '/beheer/velden/$veldId'
+      preLoaderRoute: typeof BeheerVeldenVeldIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reserveringen/$reserveringId_/bevestiging': {
+      id: '/reserveringen/$reserveringId_/bevestiging'
+      path: '/reserveringen/$reserveringId/bevestiging'
+      fullPath: '/reserveringen/$reserveringId/bevestiging'
+      preLoaderRoute: typeof ReserveringenReserveringIdBevestigingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BeheerRoute: BeheerRoute,
+  DemoRoute: DemoRoute,
+  InloggenRoute: InloggenRoute,
+  MijnReserveringenRoute: MijnReserveringenRoute,
+  RegistrerenRoute: RegistrerenRoute,
+  SportplekkenRoute: SportplekkenRoute,
+  ZoWerktHetRoute: ZoWerktHetRoute,
+  BeheerLocatiesRoute: BeheerLocatiesRoute,
+  BeheerPlanningRoute: BeheerPlanningRoute,
+  BeheerPoortdemoRoute: BeheerPoortdemoRoute,
+  BeheerReserveringenRoute: BeheerReserveringenRoute,
+  BeheerVeldenRoute: BeheerVeldenRoute,
+  ReserverenSlotIdRoute: ReserverenSlotIdRoute,
+  ReserveringenReserveringIdRoute: ReserveringenReserveringIdRoute,
+  SportplekkenVeldIdRoute: SportplekkenVeldIdRoute,
+  BeheerVeldenVeldIdRoute: BeheerVeldenVeldIdRoute,
+  ReserveringenReserveringIdBevestigingRoute:
+    ReserveringenReserveringIdBevestigingRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

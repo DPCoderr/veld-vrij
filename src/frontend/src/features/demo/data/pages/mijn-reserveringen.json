@@ -1,0 +1,11 @@
+{
+	"id": "mijn-reserveringen",
+	"title": "Mijn reserveringen",
+	"description": "Jouw volgende moment buiten.",
+	"route": "/mijn-reserveringen",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["default", "loading", "empty", "error"]
+}

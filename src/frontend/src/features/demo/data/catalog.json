@@ -1,0 +1,305 @@
+{
+	"locations": [
+		{
+			"id": "noord",
+			"name": "Sportpark Noord",
+			"address": "Noordlaan 4, 1234 AB Voorbeelddorp",
+			"active": true
+		},
+		{
+			"id": "parkzicht",
+			"name": "Sportpark Parkzicht",
+			"address": "Parklaan 8, 1234 AB Voorbeelddorp",
+			"active": true
+		},
+		{
+			"id": "buiten",
+			"name": "Sportpark Buiten",
+			"address": "Buitenlaan 12, 1234 AB Voorbeelddorp",
+			"active": true
+		}
+	],
+	"fields": [
+		{
+			"id": "voetbalveld-noord",
+			"name": "Voetbalveld Noord",
+			"locationId": "noord",
+			"sports": ["Voetbal"],
+			"image": "/images/football.png",
+			"surface": "Natuurgras",
+			"capacity": 22,
+			"description": "Een ruim voetbalveld voor een sportieve middag met jouw groep.",
+			"lighting": true,
+			"opens": 8,
+			"closes": 22,
+			"defaultPrice": 1200,
+			"active": true
+		},
+		{
+			"id": "tennisbaan-parkzicht",
+			"name": "Tennisbaan Parkzicht",
+			"locationId": "parkzicht",
+			"sports": ["Tennis"],
+			"image": "/images/tennis.png",
+			"surface": "Gravel",
+			"capacity": 4,
+			"description": "Een fijne tennisbaan tussen het groen. Neem je rackets mee en speel samen een uur.",
+			"lighting": true,
+			"opens": 8,
+			"closes": 22,
+			"defaultPrice": 800,
+			"active": true
+		},
+		{
+			"id": "multiveld-buiten",
+			"name": "Multiveld Buiten",
+			"locationId": "buiten",
+			"sports": ["Voetbal", "Basketbal"],
+			"image": "/images/multifield.png",
+			"surface": "Kunstgras",
+			"capacity": 12,
+			"description": "Op het multiveld speel je voetbal of basketbal. Je reserveert het hele veld voor jouw groep.",
+			"lighting": true,
+			"opens": 8,
+			"closes": 22,
+			"defaultPrice": 0,
+			"active": true
+		}
+	],
+	"slots": [
+		{
+			"id": "buiten-12",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 12,
+			"price": 0,
+			"closed": false
+		},
+		{
+			"id": "buiten-13",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 13,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "buiten-14",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 14,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "buiten-15",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 15,
+			"price": 1200,
+			"closed": true,
+			"reason": "Onderhoud"
+		},
+		{
+			"id": "buiten-16",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 16,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "buiten-17",
+			"fieldId": "multiveld-buiten",
+			"date": "2026-09-19",
+			"start": 17,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "noord-12",
+			"fieldId": "voetbalveld-noord",
+			"date": "2026-09-19",
+			"start": 12,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "noord-14",
+			"fieldId": "voetbalveld-noord",
+			"date": "2026-09-19",
+			"start": 14,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "noord-15",
+			"fieldId": "voetbalveld-noord",
+			"date": "2026-09-19",
+			"start": 15,
+			"price": 1200,
+			"closed": true,
+			"reason": "Onderhoud"
+		},
+		{
+			"id": "noord-18",
+			"fieldId": "voetbalveld-noord",
+			"date": "2026-09-19",
+			"start": 18,
+			"price": 1200,
+			"closed": false
+		},
+		{
+			"id": "parkzicht-12",
+			"fieldId": "tennisbaan-parkzicht",
+			"date": "2026-09-19",
+			"start": 12,
+			"price": 800,
+			"closed": false
+		},
+		{
+			"id": "parkzicht-14",
+			"fieldId": "tennisbaan-parkzicht",
+			"date": "2026-09-19",
+			"start": 14,
+			"price": 800,
+			"closed": false
+		},
+		{
+			"id": "parkzicht-16",
+			"fieldId": "tennisbaan-parkzicht",
+			"date": "2026-09-19",
+			"start": 16,
+			"price": 800,
+			"closed": false
+		},
+		{
+			"id": "parkzicht-20-10",
+			"fieldId": "tennisbaan-parkzicht",
+			"date": "2026-09-20",
+			"start": 10,
+			"price": 800,
+			"closed": false
+		},
+		{
+			"id": "noord-21-18",
+			"fieldId": "voetbalveld-noord",
+			"date": "2026-09-21",
+			"start": 18,
+			"price": 1200,
+			"closed": false
+		}
+	],
+	"bookings": [
+		{
+			"id": "res-buiten-13",
+			"slotId": "buiten-13",
+			"sport": "Basketbal",
+			"name": "Robin Jansen",
+			"owner": "other",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "73184025"
+		},
+		{
+			"id": "res-buiten-14",
+			"slotId": "buiten-14",
+			"sport": "Voetbal",
+			"name": "Sam de Vries",
+			"owner": "sam",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "48371902"
+		},
+		{
+			"id": "res-parkzicht-16",
+			"slotId": "parkzicht-16",
+			"sport": "Tennis",
+			"name": "Noor Bakker",
+			"owner": "other",
+			"status": "pending",
+			"paid": false,
+			"refund": "none",
+			"code": "59823164"
+		},
+		{
+			"id": "res-noord-18",
+			"slotId": "noord-18",
+			"sport": "Voetbal",
+			"name": "Alex Smit",
+			"owner": "other",
+			"status": "cancelled",
+			"paid": true,
+			"refund": "processing",
+			"code": "18294730"
+		},
+		{
+			"id": "res-noord-12",
+			"slotId": "noord-12",
+			"sport": "Voetbal",
+			"name": "Luca Visser",
+			"owner": "other",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "23148769"
+		},
+		{
+			"id": "res-noord-14",
+			"slotId": "noord-14",
+			"sport": "Voetbal",
+			"name": "Jesse Bos",
+			"owner": "other",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "29173048"
+		},
+		{
+			"id": "res-parkzicht-12",
+			"slotId": "parkzicht-12",
+			"sport": "Tennis",
+			"name": "Eva de Jong",
+			"owner": "other",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "31428976"
+		},
+		{
+			"id": "res-parkzicht-14",
+			"slotId": "parkzicht-14",
+			"sport": "Tennis",
+			"name": "Mo van Dijk",
+			"owner": "other",
+			"status": "confirmed",
+			"paid": true,
+			"refund": "none",
+			"code": "62413879"
+		},
+		{
+			"id": "res-parkzicht-20-10",
+			"slotId": "parkzicht-20-10",
+			"sport": "Tennis",
+			"name": "Sam de Vries",
+			"owner": "sam",
+			"status": "pending",
+			"paid": false,
+			"refund": "none",
+			"code": "73419286"
+		},
+		{
+			"id": "res-noord-21-18",
+			"slotId": "noord-21-18",
+			"sport": "Voetbal",
+			"name": "Sam de Vries",
+			"owner": "sam",
+			"status": "cancelled",
+			"paid": true,
+			"refund": "processing",
+			"code": "52389176"
+		}
+	]
+}

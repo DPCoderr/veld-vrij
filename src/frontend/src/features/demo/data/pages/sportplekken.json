@@ -1,0 +1,11 @@
+{
+	"id": "sportplekken",
+	"title": "Vind jouw sportplek",
+	"description": "Kies een veld en bekijk de beschikbare tijden.",
+	"route": "/sportplekken",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["default", "loading", "empty", "error"]
+}

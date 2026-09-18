@@ -1,0 +1,11 @@
+{
+	"id": "afronden",
+	"title": "Controleer je reservering",
+	"description": "Je hebt het hele veld voor jouw groep.",
+	"route": "/reserveren/buiten-14",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["browse", "free-confirmed"]
+}

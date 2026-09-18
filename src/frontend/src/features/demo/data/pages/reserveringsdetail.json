@@ -1,0 +1,11 @@
+{
+	"id": "reserveringsdetail",
+	"title": "Je reservering",
+	"description": "Alles op een rij voor jouw sportmoment.",
+	"route": "/reserveringen/res-buiten-14",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["confirmed", "payment-checking", "cancel", "late-cancel"]
+}

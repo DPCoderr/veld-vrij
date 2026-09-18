@@ -1,0 +1,11 @@
+{
+	"id": "home",
+	"title": "Jouw sportplek. Jouw moment.",
+	"description": "Reserveer een veld in de buurt en ga samen naar buiten.",
+	"route": "/",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["default", "loading", "empty", "error"]
+}

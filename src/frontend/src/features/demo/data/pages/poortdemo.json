@@ -1,0 +1,11 @@
+{
+	"id": "poortdemo",
+	"title": "Poortsimulatie",
+	"description": "Test de toegang tot een veld.",
+	"route": "/beheer/poortdemo",
+	"date": "2026-09-19",
+	"fieldIds": ["voetbalveld-noord", "tennisbaan-parkzicht", "multiveld-buiten"],
+	"selectedFieldId": "multiveld-buiten",
+	"selectedSlotId": "buiten-14",
+	"scenarios": ["gate-allowed", "gate-denied"]
+}
